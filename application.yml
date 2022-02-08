@@ -1,19 +1,4 @@
-# spring:
-#   profiles: dev
-  security:
-    oauth2:
-      resourceserver:
-        jwt:
-          jwk-set-uri: http://localhost:9090/.well-known/jwks.json
-  kafka: 
-    bootstrapServers: localhost:9092   
-storage:
-  directory: c:\tmp\getpaid\api
-server:
-  port: ${port:8882}
-  address: 127.0.0.1
-
-    
+   
 eureka:
   client:
     register-with-eureka: true
